@@ -6,29 +6,29 @@
     "type": "offline"
   },
   "server": {
-    "ip": "7L_SMP_is_real.aternos.me",
-    "port": 62213,
+    "ip": "TheRealestServer.aternos.me",
+    "port": 34955,
     "version": "",
-    "try-creative": false
+    "try-creative": true
   },
   "position": {
     "enabled": true,
     "x": 0,
-    "y": 100,
+    "y": 2000000,
     "z": 0
   },
   "utils": {
     "auto-auth": {
-      "enabled": true,
+      "enabled": false,
       "password": "chalol78"
     },
     "anti-afk": {
-      "enabled": true,
-      "sneak": true
+      "enabled": false,
+      "sneak": false
     },
     "chat-messages": {
-      "enabled": true,
-      "repeat": true,
+      "enabled": false,
+      "repeat": false,
       "repeat-delay": 120,
       "messages": [
         "I'm a regular player",
@@ -42,27 +42,27 @@
     "max-reconnect-delay": 120000
   },
   "movement": {
-    "enabled": true,
+    "enabled": false
     "circle-walk": {
-      "enabled": true,
-      "radius": 4,
-      "speed": 3000
+      "enabled": false,
+      "radius": 100000000000000000000000000000000000,
+      "speed": 99999
     },
     "look-around": {
-      "enabled": true,
+      "enabled": false,
       "interval": 5000
     },
     "random-jump": {
-      "enabled": true,
+      "enabled": false,
       "interval": 10000
     }
   },
   "modules": {
     "avoidMobs": true,
-    "combat": true,
-    "beds": false,
-    "chat": true,
-    "console-commands": true
+    "combat": false,
+    "beds": true,
+    "chat": false,
+    "console-commands": false
   },
   "combat": {
     "attack-mobs": true,
@@ -76,12 +76,12 @@
     "enabled": false,
     "webhookUrl": "YOUR_DISCORD_WEBHOOK_URL_HERE",
     "events": {
-      "connect": true,
-      "disconnect": true,
+      "connect": false,
+      "disconnect": false,
       "chat": false
     }
   },
   "chat": {
-    "respond": true
+    "respond": false
   }
 }
